@@ -1,0 +1,352 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/imgs/4220210.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  gap: 60rem;
+  margin-top: 1em;
+}
+
+.logo-1 {
+  align-items: center;
+  margin-left: 2em;
+  display: flex;
+}
+
+.logo-0 {
+}
+
+.logo-1 p {
+  font-weight: 900;
+  margin-top: 1em;
+}
+
+.bi.bi-list {
+  color: black;
+}
+.dropbtn {
+  color: white;
+  padding: 0.5em;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 1em;
+  text-decoration: none;
+  display: block;
+  width: 13em 1em;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+  color: rgb(75, 75, 236);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.img img {
+  border-radius: 50%;
+}
+
+.all {
+  margin-left: 9rem;
+  margin-top: 4rem;
+}
+
+.all-1 h2 {
+  font-size: 3.1em;
+  text-shadow: 2px 1px;
+}
+
+.all-2 {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1.2em;
+}
+
+.all-2 p {
+  font-size: 0.7em;
+  font-weight: 600;
+  padding-top: 0.4rem;
+}
+.all-2 a {
+  text-decoration: none;
+  font-size: 0.6em;
+}
+
+.all-in-one {
+  display: flex;
+  gap: 2em;
+  border: 0.3em solid white;
+  border-radius: 1em;
+  width: 38em;
+  justify-content: center;
+  background-color: white;
+  margin-top: 3em;
+  position: relative;
+}
+
+.stick {
+  position: absolute;
+  border: 0.1em solid none;
+  border-radius: 1em;
+  width: 3.5em;
+  height: 1.1em;
+  bottom: -0.8em;
+  background-color: rgb(206, 206, 228);
+  margin-left: 2em;
+}
+
+.stick p {
+  text-align: center;
+  margin-top: -0.7em;
+}
+
+.stick p a {
+  font-size: 0.7rem;
+  color: black;
+}
+
+.circle-1 img {
+  position: relative;
+  border: 3em solid white;
+  display: flex;
+  width: 430px;
+  height: 428px;
+  border-radius: 50%;
+  margin-top: 1.5em;
+}
+
+.circle-2 img {
+  position: absolute;
+  border: 0.4em solid white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  right: 14em;
+  top: 2.8em;
+}
+.circle-3 img {
+  position: absolute;
+  border: 0.4em solid white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  top: 14em;
+  right: 40em;
+}
+.circle-4 img {
+  position: absolute;
+  border: 0.4em solid white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  right: 0.6em;
+  top: 16em;
+}
+.circle-5 img {
+  position: absolute;
+  border: 0.4em solid white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  right: 14em;
+}
+
+.main {
+  display: flex;
+  gap: 2em;
+}
+
+/* .bi.bi-play-fill {
+  font-size: 2rem;
+} */
+
+@media (max-width: 400px) {
+  .head {
+    display: flex;
+    align-items: center;
+    gap: 9em;
+  }
+  .dropbtn {
+    color: white;
+    padding: 0.5em 0.8em;
+    font-size: 0.8rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+    text-decoration: none;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    width: 13em 1em;
+    text-align: center;
+    font-size: 0.4rem;
+  }
+  .all-1 h2 {
+    font-size: 1.5em;
+    text-shadow: 2px 1px;
+  }
+
+  .all {
+    margin-left: 2rem;
+  }
+
+  .all-in-one {
+    display: flex;
+    gap: 1em;
+    border: 0.3em solid white;
+    border-radius: 1em;
+    width: 22em;
+    justify-content: center;
+    background-color: white;
+    margin-top: 2em;
+    position: relative;
+  }
+  .all-2 p {
+    font-size: 0.5em;
+    font-weight: 600;
+    padding-top: 0.4rem;
+  }
+
+  .img img {
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+  }
+
+  .all-2 a {
+    text-decoration: none;
+    font-size: 0.3em;
+  }
+  .stick {
+    position: absolute;
+    border: 0.1em solid none;
+    border-radius: 1em;
+    width: 2em;
+    height: 1.1em;
+    bottom: -0.8em;
+    background-color: rgb(206, 206, 228);
+    margin-left: 1em;
+  }
+  .stick p {
+    text-align: center;
+    margin-top: -0.7em;
+  }
+
+  .stick p a {
+    font-size: 0.5rem;
+    color: black;
+  }
+  .logo-1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-1 img {
+    padding-left: em;
+  }
+
+  .logo-1 p {
+    font-weight: 900;
+    font-size: 0.6em;
+  }
+  .circle-1 img {
+    position: relative;
+    border: 2em solid white;
+    display: flex;
+    width: 215px;
+    height: 220px;
+    border-radius: 50%;
+    margin-top: 1.5em;
+  }
+
+  .circle-2 img {
+    position: absolute;
+    border: 0.3em solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    right: 14em;
+    top: 28em;
+  }
+  .circle-3 img {
+    position: absolute;
+    border: 0.3em solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 10em;
+    right: 40em;
+  }
+  .circle-4 img {
+    position: absolute;
+    border: 0.3em solid white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    right: 2em;
+    top: 30em;
+  }
+  .circle-5 img {
+    position: absolute;
+    border: 0.3em solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    right: 12em;
+    bottom: 3em;
+  }
+
+  .circle {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+  }
+  .main {
+    display: block;
+    gap: 2em;
+  }
+}
